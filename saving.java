@@ -13,6 +13,6 @@ public class saving extends bankAccount{
         double si;
         si = (p*t*i)/100;
         System.out.println("Your interest amount is : "+ si);
-
+        System.out.println("The total amount is : " +(p+si));
     }
 }
