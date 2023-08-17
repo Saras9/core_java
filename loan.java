@@ -13,5 +13,6 @@ public class loan extends bankAccount{
         double si;
         si = (p*t*i)/100;
         System.out.println("The interested amount is : "+si);
+        System.out.println("The total amount is : " +(p+si));
     }
 }
