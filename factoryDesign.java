@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class factoryDesign {
     public static void main(String[] args){
         bankFactory bf = new bankFactory();
-        System.out.println("Enter the account name you want to be created : \n 1. Saving \n 2. Current \n 3. Loan");
+        System.out.println("Enter the account name you want to be created if you are not enter a valid number it wil create savings account : \n 1. Saving \n 2. Current \n 3. Loan");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         String str;
